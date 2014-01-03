@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mycompany.mytwitter.MyConsoleTest" time="0.019" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="com.mycompany.mytwitter.MyConsoleTest" time="0.02" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_32\jre\bin"/>
@@ -61,11 +61,11 @@
   <testcase name="testGetCommandWithDataREADING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.002"/>
   <testcase name="testGetCommandWithDataWALLING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
   <testcase name="testExecuteCommandFOLLOWING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.013"/>
-  <testcase name="testExecuteCommandREADING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.002"/>
-  <testcase name="testExecuteCommandWALLING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
-  <testcase name="testGetCommandWithDataNullParameter" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
-  <testcase name="testGetCommandWithDataFOLLOWING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
+  <testcase name="testExecuteCommandREADING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
+  <testcase name="testExecuteCommandWALLING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
+  <testcase name="testGetCommandWithDataNullParameter" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
+  <testcase name="testGetCommandWithDataFOLLOWING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
   <testcase name="testGetCommandWithDataPOSTING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
   <testcase name="testExecuteCommandNullParameter" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
-  <testcase name="testExecuteCommandPOSTING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0"/>
+  <testcase name="testExecuteCommandPOSTING" classname="com.mycompany.mytwitter.MyConsoleTest" time="0.001"/>
 </testsuite>

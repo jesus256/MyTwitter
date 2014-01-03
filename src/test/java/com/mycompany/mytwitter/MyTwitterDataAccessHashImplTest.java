@@ -239,8 +239,9 @@ public class MyTwitterDataAccessHashImplTest {
 		
 		List<String> followList=(List<String>)ReflectionTestUtils.getField(dataAccess, "followList");
 		
-		//followList should be null if follower does not exists
-		assertNull(followList);
+		//It does not matter that Charlie/Alice did not send any message yet, following should work
+		assertEquals(1, followList.size());
+		assertEquals("Alice", followList.get(0));
 		
 		 
 	}
@@ -268,8 +269,9 @@ public class MyTwitterDataAccessHashImplTest {
 		
 		List<String> followList=(List<String>)ReflectionTestUtils.getField(dataAccess, "followList");
 		
-		//followList should be null if follower does not exists
-		assertNull(followList);
+		//Alice did not send any message yet, but she can follow
+		assertEquals(1, followList.size());
+		assertEquals("Alice", followList.get(0));
 		
 		 
 	}

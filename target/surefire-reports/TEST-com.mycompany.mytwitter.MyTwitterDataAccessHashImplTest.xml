@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.081" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.085" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_32\jre\bin"/>
@@ -58,13 +58,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testFOLLOWING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.07"/>
+  <testcase name="testFOLLOWING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.072"/>
   <testcase name="testWALLINGWithoutFollowing" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0"/>
-  <testcase name="testFOLLOWINGFollowerNotFound" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.003"/>
-  <testcase name="testPOSTING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.007"/>
+  <testcase name="testFOLLOWINGFollowerNotFound" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.004"/>
+  <testcase name="testPOSTING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.006"/>
   <testcase name="testREADINGWithoutPosting" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0"/>
   <testcase name="testREADING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0"/>
   <testcase name="testWALLING" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0"/>
-  <testcase name="testFOLLOWINGUserNotFound" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.001"/>
+  <testcase name="testFOLLOWINGUserNotFound" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0.003"/>
   <testcase name="testWALLINGWithoutPosting" classname="com.mycompany.mytwitter.MyTwitterDataAccessHashImplTest" time="0"/>
 </testsuite>

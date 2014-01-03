@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.672" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.583" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_32\jre\bin"/>
@@ -58,13 +58,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testAliceHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.533"/>
-  <testcase name="testBobHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.043"/>
-  <testcase name="testBobHappyPosting2" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.041"/>
-  <testcase name="testCharlieHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
+  <testcase name="testAliceHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.51"/>
+  <testcase name="testBobHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
+  <testcase name="testBobHappyPosting2" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
+  <testcase name="testCharlieHappyPosting" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.01"/>
   <testcase name="testAliceHappyReading" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
   <testcase name="testBobHappyReading" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
   <testcase name="testHappyCharlieFollowsAlice" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
   <testcase name="testHappyCharlieFollowsBob" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
-  <testcase name="testHappyCharlieWall" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.01"/>
+  <testcase name="testHappyCharlieWall" classname="com.mycompany.mytwitter.MyTwitterIntegrationTestCase" time="0.009"/>
 </testsuite>

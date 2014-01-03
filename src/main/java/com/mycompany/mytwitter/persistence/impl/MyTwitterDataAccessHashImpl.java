@@ -60,17 +60,10 @@ public class MyTwitterDataAccessHashImpl implements MyTwitterDataAccess {
 	@Override
 	public void following(InputData inputData) {
 		
-
-		if (storage.getMessageList().get(inputData.getUser())==null || storage.getMessageList().get(inputData.getUserFollowed())==null)
-		{
-			//The user cannot be found, so nothing is done
-			return;
-		}
-		
 		followList=storage.getFollowList().get(inputData.getUser());
 		if (followList==null)
 		{
-		 //First user message
+		 //First time user follows
 		 followList=new ArrayList<String>();
 		}
 
@@ -95,24 +88,31 @@ public class MyTwitterDataAccessHashImpl implements MyTwitterDataAccess {
 	public List<MyTwitterMessage> walling(InputData inputData) {
 		
 		messageList=storage.getMessageList().get(inputData.getUser());
-		if (messageList==null)
+		
+		if (messageList!=null)
 		{
-			//The user cannot be found, so empty List returned
-			return new ArrayList<MyTwitterMessage>();
+		 messageList=this.cloneMessageList(messageList);	
 		}
+		else
+		{
+		 messageList=new ArrayList<MyTwitterMessage>();
+		}
+	
 		
 		followList=storage.getFollowList().get(inputData.getUser());
-	
-		messageList=this.cloneMessageList(messageList);
 		
 		if (followList==null)
 		{
 			return reading(inputData);
 		}
-			 
+		List<MyTwitterMessage> messageTemp;
 		for(String user:followList)
-		{			 
-			messageList.addAll(storage.getMessageList().get(user));
+		{		
+			messageTemp=storage.getMessageList().get(user);
+			if (messageTemp!=null)
+			{
+				messageList.addAll(messageTemp);
+			}
 		}
 		
 		Collections.sort(messageList);
